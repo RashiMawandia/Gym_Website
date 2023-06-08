@@ -1,0 +1,41 @@
+<html>
+<head>
+</head>
+<style>
+.bg-gradient{
+      height: 90vh;
+      width: 100%;
+      background-image: linear-gradient(65deg,rgb(212,212,198),rgb(174,129,151));
+}
+</style>
+<script>
+    function sub_message(){
+        alert("ThankYou!!Registration Done");
+    }
+</script>
+<body>
+<div class="bg-gradient">
+<h1 align="center"><u>Rashi's Fitness Registration form</u></h1>
+<h3 align="center">Admission Fee:Rs500</h3>
+<form>
+ Name:<input type="text" name="firstname" size="50" required="required"><br><br>
+ Current Weight:<input type="text" size="3" required="required"><br><br>
+ Height:<input type="text" size="5" required="required"><br><br>
+ Age:<input type="text" size="3" required="required"><br><br>
+ Gender:<br>
+        <input type="radio" name="Male" required="required">Male<br>
+        <input type="radio" name="Female" required="required">Female<br>
+         <br>
+ Phone:<input type="text" value="+91" size="2" required="required">
+        <input type="text" size="10" required="required">
+        <br><br>
+ Address:<textarea cols="80" rows="5" value="address" required="required"></textarea>
+        <br><br>
+ Email:<input type="text" name="email" required="required">
+        <br><br>
+ <input type="button" value="Send" namonclick="sub_message()" required="required"><br><br>
+</form>
+</div>
+</body>
+</html>
+
